@@ -1,0 +1,55 @@
+html, body {
+height:90%; /* Marca la altura de la maqueta, es decir, el tamaño de la pagina*/
+
+}
+
+
+header {
+
+display:block; /* Visualiza el marco*/
+background:#288;/* Edita el color del marco*/
+padding:5px 0px;/*Edita el espacio de relleno del marco */
+
+}
+
+section {
+width:80%;/*Marca la anchura del marco*/
+background: #77DD77; /* Establece el color del fondo del marco*/
+float: right;/*Marca la posicion del área de contenido. Posiciona los elementos en forma flotante: left, right */
+overflow:auto;/*Especifica si recortar el contenido, dibujar barras de desplazamiento o mostrar el contenido excedente*/
+padding-bottom: 50px; /* Edita el espacio que conllevará el marco en esta sección */
+padding-top:10px; /*Marca el límite del marco por la parte de arriba*/
+
+}
+
+div {
+	background-color: #288;
+}
+
+span{
+	background: white;
+	color: blue;
+}
+
+aside{
+float: left; /* Muestra la direccion en el que se encontrará el borde*/
+border: 10px solid red;
+width:15%;
+border: 10px solid green;/* Border representa que habrá un borde alrededor: Estos serían los atributos que llevaria el borde,
+"x" pixeles de grosor y el color del borde*/
+}
+
+footer {
+position: relative;/* Establece la posicion de los elementos en esta sección  */
+margin-top: -50px;/* */
+height: 40px;
+padding: 5px 0px;
+clear: both;/* */
+background: #286af0; /*Controla el color del pie de página */
+text-align: center;/*ofrece alineacion al texto del pie de pagina */
+color: #fff;/* Color del texto */
+}
+
+figure { /* Representa contenido independiente/ leyenda de la imágen*/
+display: table; margin: 0 auto;/* Determina la forma de la sección figura; muestra el contenido en forma de tabla*/
+}
